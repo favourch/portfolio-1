@@ -51,7 +51,6 @@
     }
     #library{
         display: none;
-
     }
     .place-holder{
         text-align: center;
@@ -83,9 +82,7 @@
     .portfolio-img:hover {
         box-shadow: 5px 8px 12px 12px rgb(163, 161, 161);
         cursor: pointer;
-
     }
-
     /* Style the buttons */
     .btn {
         border: none;
