@@ -43,7 +43,20 @@
         border-bottom: 60px solid #f3f0f0;
 
     }
+    #skills{
+        display: none;
+    }
+    #open{
+        display: none;
+    }
+    #library{
+        display: none;
 
+    }
+    .place-holder{
+        text-align: center;
+        margin-top: 80px;
+    }
     .topic p {
         text-align: center;
         font-size: 16px;

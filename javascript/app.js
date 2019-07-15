@@ -1,4 +1,7 @@
-var t = document.getElementById('tool');
+var skill = document.getElementById('skills');
+var open = document.getElementById('open');
+var library = document.getElementById('library');
+
 
 filterSelection = (option = "all") => {
     let oInput = document.getElementById('container');
@@ -16,17 +19,22 @@ filterSelection = (option = "all") => {
         else if (option == "all") {
             document.getElementById("" + id_list[j]).style.display = "flex";
             document.getElementById("" + id_list[j]).style.flexWrap = "wrap";
-            t.style.display = "none";
+            skill.style.display = "none";
+            open.style.display = "none";
+            library.style.display = "none";
+
         }
         else if (id_list[j] === option) {
             console.log(`${id_list[j]} == ${option}`)
             document.getElementById("" + id_list[j]).style.display = "flex";
             document.getElementById("" + id_list[j]).style.flexWrap = "wrap";
+
         }
 
         else {
             document.getElementById("" + id_list[j]).style.display = "none";
             document.getElementById("" + id_list[j]).style.flexWrap = "wrap";
+
 
         }
     }
